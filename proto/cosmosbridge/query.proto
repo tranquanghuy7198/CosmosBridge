@@ -1,0 +1,15 @@
+syntax = "proto3";
+package tranquanghuy7198.cosmosbridge.cosmosbridge;
+
+import "google/api/annotations.proto";
+import "cosmos/base/query/v1beta1/pagination.proto";
+// this line is used by starport scaffolding # 1
+
+option go_package = "github.com/tranquanghuy7198/CosmosBridge/x/cosmosbridge/types";
+
+// Query defines the gRPC querier service.
+service Query {
+    // this line is used by starport scaffolding # 2
+}
+
+// this line is used by starport scaffolding # 3

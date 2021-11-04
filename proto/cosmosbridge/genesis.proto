@@ -1,0 +1,11 @@
+syntax = "proto3";
+package tranquanghuy7198.cosmosbridge.cosmosbridge;
+
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/tranquanghuy7198/CosmosBridge/x/cosmosbridge/types";
+
+// GenesisState defines the cosmosbridge module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+}
